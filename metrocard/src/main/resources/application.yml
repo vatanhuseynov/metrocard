@@ -1,0 +1,12 @@
+server:
+  servlet:
+    context-path: /metro-api
+  port: 8888
+
+spring:
+  jpa:
+    open-in-view: false
+  application:
+    name: metro
+  profiles:
+    active: dev
